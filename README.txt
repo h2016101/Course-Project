@@ -1,4 +1,6 @@
 # Course-Project
+This is an i2c driver to interface VCNL 4010 with raspberry pi 
+Steps :
 > Download the Kernel Level code “i2c.c”, user space code “user.c” and Makefile .
 > Go to the Directory where these files are downloaded.
 > Run $ make all on terminal
@@ -11,5 +13,4 @@
 > If everything goes right you should see the proximity value on the Terminal.
 > To read the Status of Interrupt and other information run $dmesg
 > If you bring something close to the sensor the Pin 11 on Raspberry Pi should go high, connect an Led to this Pin.
-> To Remove the module run $rmmod i2c.ko  
-
+> To Remove the module run $rmmod i2c.ko
