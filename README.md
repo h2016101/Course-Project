@@ -11,4 +11,5 @@
 > If everything goes right you should see the proximity value on the Terminal.
 > To read the Status of Interrupt and other information run $dmesg
 > If you bring something close to the sensor the Pin 11 on Raspberry Pi should go high, connect an Led to this Pin.
-> To Remove the module run $rmmod i2c.ko
+> To Remove the module run $rmmod i2c.ko 
+
